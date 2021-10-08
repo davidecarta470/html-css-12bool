@@ -1,67 +1,72 @@
 .row{
+  width:1170px;
+  max-width: 100%;
+  margin:0 auto;
   display:flex;
-  background-color:cyan;
-  height:40px;
+  background-color:rgb(255, 255, 255);
+ 
+  
 }
 .col-xs-1{
   flex-basis:calc(100%/12);
-  background-color:darkblue;
-  border:1px solid rgb(0, 0, 0);
+  background-color:cyan;
+  text-align:center;
+  line-height:40px;border: 1px solid white;height:40px;
 }
 .col-xs-2{
   flex-basis:calc((100%/12)*2);
-  background-color:darkblue;
-  border:1px solid rgb(0, 0, 0);
+  background-color:cyan;
+  text-align:center;line-height:40px;border: 1px solid white;height:40px;
 }
 .col-xs-3{
   flex-basis:calc((100%/12)*3);
-  background-color:darkblue;
-  border:1px solid rgb(0, 0, 0);
+  background-color:cyan;
+  text-align:center;line-height:40px;border: 1px solid white;height:40px;
 }
 .col-xs-4{
   flex-basis:calc((100%/12)*4);
-  background-color:darkblue;
-  border:1px solid rgb(0, 0, 0);
+  background-color:cyan;
+  text-align:center;line-height:40px;border: 1px solid white;height:40px;
 }
 .col-xs-5{
-  flex-basis:calc((100%/12)57);
-  background-color:darkblue;
-  border:1px solid rgb(0, 0, 0);
+  flex-basis:calc((100%/12)*5);
+  background-color:cyan;
+  text-align:center;line-height:40px;border: 1px solid white;height:40px;
 }
 .col-xs-6{
   flex-basis:calc((100%/12)*6);
-  background-color:darkblue;
-  border:1px solid rgb(0, 0, 0);
+  background-color:cyan;
+  text-align:center;line-height:40px;border: 1px solid white;height:40px;
 }
 .col-xs-7{
   flex-basis:calc((100%/12)*7);
-  background-color:darkblue;
-  border:1px solid rgb(0, 0, 0);
+  background-color:cyan;
+  text-align:center;line-height:40px;border: 1px solid white;height:40px;
 }
 .col-xs-8{
   flex-basis:calc((100%/12)*8);
-  background-color:darkblue;
-  border:1px solid rgb(0, 0, 0);
+  background-color:cyan;
+  text-align:center;line-height:40px;border: 1px solid white;height:40px;
 }
 .col-xs-9{
   flex-basis:calc((100%/12)*9);
-  background-color:darkblue;
-  border:1px solid rgb(0, 0, 0);
+  background-color:cyan;
+  text-align:center;line-height:40px;border: 1px solid white;height:40px;
 }
 .col-xs-10{
   flex-basis:calc((100%/12)*10);
-  background-color:darkblue;
-  border:1px solid rgb(0, 0, 0);
+  background-color:cyan;
+  text-align:center;line-height:40px;border: 1px solid white;height:40px;
 }
 .col-xs-11{
   flex-basis:calc((100%/12)*11);
-  background-color:darkblue;
-  border:1px solid rgb(0, 0, 0);
+  background-color:cyan;
+  text-align:center;line-height:40px;border: 1px solid white;height:40px;
 }
 .col-xs-12{
   flex-basis:calc((100%/12)*12);
-  background-color:darkblue;
-  border:1px solid rgb(0, 0, 0);
+  background-color:cyan;
+  text-align:center;line-height:40px;border: 1px solid white;height:40px;
 }
 
 
@@ -101,6 +106,80 @@
 .offset-11{
   margin-left:calc((100%/12)*11);
 }
-.col-xs-12{
+.offset-12{
   margin-left:calc((100%/12)*12);
+}
+
+/* NIDIFICAZIONI */
+.row-nested{
+  width:1170px;
+  max-width: 100%;
+  margin:0 auto;
+  display:flex;
+  background-color:cyan;
+  padding: 10px;
+  border: 1px solid white;
+  margin-bottom: 20px;
+  
+}
+.nesting-1{
+  flex-basis:calc(100%/12);
+  background-color: yellow;
+  text-align:center;
+  line-height:40px;border: 1px solid cyan;height:40px;
+}
+.nesting-2{
+  flex-basis:calc((100%/12)*2);
+  background-color: yellow;
+  text-align:center;line-height:40px;border: 1px solid cyan;height:40px;
+}
+.nesting-3{
+  flex-basis:calc((100%/12)*3);
+  background-color: yellow;
+  text-align:center;line-height:40px;border: 1px solid cyan;height:40px;
+}
+.nesting-4{
+  flex-basis:calc((100%/12)*4);
+  background-color: yellow;
+  text-align:center;line-height:40px;border: 1px solid cyan;height:40px;
+}
+.nesting-5{
+  flex-basis:calc((100%/12)*5);
+  background-color: yellow;
+  text-align:center;line-height:40px;border: 1px solid cyan;height:40px;
+}
+.nesting-6{
+  flex-basis:calc((100%/12)*6);
+  background-color: yellow;
+  text-align:center;line-height:40px;border: 1px solid cyan;height:40px;
+}
+.nesting-7{
+  flex-basis:calc((100%/12)*7);
+  background-color: yellow;
+  text-align:center;line-height:40px;border: 1px solid cyan;height:40px;
+}
+.nesting-8{
+  flex-basis:calc((100%/12)*8);
+  background-color: yellow;
+  text-align:center;line-height:40px;border: 1px solid cyan;height:40px;
+}
+.nesting-9{
+  flex-basis:calc((100%/12)*9);
+  background-color: yellow;
+  text-align:center;line-height:40px;border: 1px solid cyan;height:40px;
+}
+.nesting-10{
+  flex-basis:calc((100%/12)*10);
+  background-color: yellow;
+  text-align:center;line-height:40px;border: 1px solid cyan;height:40px;
+}
+.nesting-11{
+  flex-basis:calc((100%/12)*11);
+  background-color: yellow;
+  text-align:center;line-height:40px;border: 1px solid cyan;height:40px;
+}
+.nesting-12{
+  flex-basis:calc((100%/12)*12);
+  background-color: yellow;
+  text-align:center;line-height:40px;border: 1px solid cyan;height:40px;
 }
