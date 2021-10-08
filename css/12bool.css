@@ -111,19 +111,9 @@
 }
 
 /* NIDIFICAZIONI */
-.row-nested{
-  width:1170px;
-  max-width: 100%;
-  margin:0 auto;
-  display:flex;
-  background-color:cyan;
-  padding: 10px;
-  border: 1px solid white;
-  margin-bottom: 20px;
-  
-}
+
 .nesting-1{
-  flex-basis:calc(100%/12);
+  flex-basis:100%;
   background-color: yellow;
   text-align:center;
   line-height:40px;border: 1px solid cyan;height:40px;
@@ -183,3 +173,82 @@
   background-color: yellow;
   text-align:center;line-height:40px;border: 1px solid cyan;height:40px;
 }
+
+/* RESPONSIVE */
+@media screen and (max-width:500px){
+  .row{
+    width:450px;
+    max-width: 100%;
+    margin:0 auto;
+    display:flex;
+    flex-wrap: wrap;
+    background-color:rgb(255, 255, 255);
+   
+    
+  }
+
+  .col-xs-1{
+    width:100%;
+    background-color:cyan;
+    text-align:center;
+    line-height:40px;border: 1px solid white;height:40px;
+  }
+  .col-xs-2{
+    width:100%;
+    background-color:cyan;
+    text-align:center;line-height:40px;border: 1px solid white;height:40px;
+  }
+  .col-xs-3{
+    width:100%;
+    background-color:cyan;
+    text-align:center;line-height:40px;border: 1px solid white;height:40px;
+  }
+  .col-xs-4{
+    width:100%;
+    background-color:cyan;
+    text-align:center;line-height:40px;border: 1px solid white;height:40px;
+  }
+  .col-xs-5{
+    width:100%;
+    background-color:cyan;
+    text-align:center;line-height:40px;border: 1px solid white;height:40px;
+  }
+  .col-xs-6{
+    width:100%;
+    background-color:cyan;
+    text-align:center;line-height:40px;border: 1px solid white;height:40px;
+  }
+  .col-xs-7{
+    width:100%;
+    background-color:cyan;
+    text-align:center;line-height:40px;border: 1px solid white;height:40px;
+  }
+  .col-xs-8{
+    width:100%;
+    background-color:cyan;
+    text-align:center;line-height:40px;border: 1px solid white;height:40px;
+  }
+  .col-xs-9{
+    width:100%;
+    background-color:cyan;
+    text-align:center;line-height:40px;border: 1px solid white;height:40px;
+  }
+  .col-xs-10{
+    width:100%;
+    background-color:cyan;
+    text-align:center;line-height:40px;border: 1px solid white;height:40px;
+  }
+  .col-xs-11{
+    width:100%;
+    background-color:cyan;
+    text-align:center;line-height:40px;border: 1px solid white;height:40px;
+  }
+  .col-xs-12{
+    width:100%;
+    background-color:cyan;
+    text-align:center;line-height:40px;border: 1px solid white;height:40px;
+  }
+
+
+}
+  
