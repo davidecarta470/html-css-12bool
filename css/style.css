@@ -3,14 +3,27 @@
   margin:0;
   box-sizing:border-box;
 }
-.row-nested{
-  width:1170px;
-  max-width: 100%;
-  margin:0 auto;
-  display:flex;
-  background-color:cyan;
+.box-nested{
+  width:100%;
+  background-color: cyan;
   padding: 10px;
   border: 1px solid white;
-  margin-bottom: 20px;
+}
+.nested{
+  width:100%;
+  height:40px;
   
+  background-color:rgb(200, 255, 0);
+  text-align:center;
+  line-height:40px;
+  border: 1px solid cyan;
+  
+}
+.inside-col{
+  width:100%;
+  height:40px;
+  background-color:cyan;
+  text-align:center;
+  line-height:40px;
+  border: 1px solid white;
 }
